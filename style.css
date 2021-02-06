@@ -1,0 +1,54 @@
+
+header{
+    color: bisque;
+    height: 75px;
+    background-color: darkcyan;
+    font-family: 'Lobster Two', cursive;
+}
+
+.header-font{
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: larger;
+}
+
+small {
+    font-family: 'Fira Sans', sans-serif;
+    color: bisque;
+
+}
+
+h1, h2 {
+    font-family: 'Lobster Two';
+}
+
+.card{
+    background-color: bisque;
+    padding: 5px, 5px, 5px, 5px;
+    height: auto;
+    width: 50px
+}
+.floating-card {
+    position: absolute;
+
+}
+
+.card-lg{
+    background-color: blanchedalmond;
+    height: 50%;
+    width: 30%;
+}
+
+.bg-form {
+    background-image: url(https://thumbs.dreamstime.com/b/fresh-organic-vegetables-spoons-rustic-wooden-background-top-view-border-healthy-food-vegetarian-cooking-concept-63781109.jpg);
+    background: cover;
+    
+}
+
+.bg-site {
+    background-color: darkcyan;
+}
+
+.in-your-box {
+    height: 40vh;
+}
