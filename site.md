@@ -23,5 +23,10 @@ cutting tomatoes:
 }
 
 
+.row div two{
+    height: 30vh
+}
+
+.d-none .d-md-block .d-lg-none
 
 */

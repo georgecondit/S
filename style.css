@@ -1,54 +1,103 @@
 
+.row{
+    min-height: 100px;
+
+}
+
+.row div {
+    height: auto;
+
+}
+
+.fan-favs {
+    height: 270px;
+}
+
 header{
     color: bisque;
-    height: 75px;
+    height: 80px;
     background-color: darkcyan;
     font-family: 'Lobster Two', cursive;
 }
 
 .header-font{
     font-family: 'Abril Fatface', cursive;
+    align-items: flex-start;
     color: white;
-    font-size: larger;
+    font-size: 18px;
+}
+
+nav {
+    height: 100px
+}
+.ss-box {
+    background-color: darkcyan;
+    height: auto;
+    width: 70px;  
 }
 
 small {
     font-family: 'Fira Sans', sans-serif;
     color: bisque;
-
 }
 
 h1, h2 {
-    font-family: 'Lobster Two';
+    font-family: 'Abril Fatface', bold;
 }
 
 .card{
     background-color: bisque;
+    height: 70px;
+    width: 40px;
     padding: 5px, 5px, 5px, 5px;
-    height: auto;
-    width: 50px
-}
-.floating-card {
-    position: absolute;
-
 }
 
 .card-lg{
-    background-color: blanchedalmond;
-    height: 50%;
-    width: 30%;
+    border-radius: .5em;
+    justify-content: center;
+    background-color: bisque;
+    height: 190px;
+    width: 70px;
+    padding: 5px, 5px, 5px, 5px;
+}
+
+.card-recipe{
+    position: relative;
+    top: 30px;
+    border-radius: .5em;
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 12px blueviolet
 }
 
 .bg-form {
-    background-image: url(https://thumbs.dreamstime.com/b/fresh-organic-vegetables-spoons-rustic-wooden-background-top-view-border-healthy-food-vegetarian-cooking-concept-63781109.jpg);
-    background: cover;
+    background-image: url(CP1-FP-cover-rt-4.png);
+    background-size: cover;
+    height: auto;
     
 }
 
 .bg-site {
-    background-color: darkcyan;
+    background-color:darkcyan;
 }
 
-.in-your-box {
-    height: 40vh;
+p {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: .1em;
+}
+
+.trip-icon {
+    animation: wobbles 5s ease-in-out infinite;
+}
+@keyframes wobbles {
+    0%,100%{
+        transform: translateX(-15px) rotate(5deg);
+        
+      }
+      50% {
+        transform: translate(0px) rotate(-5deg);
+      }
 }
