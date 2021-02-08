@@ -15,6 +15,7 @@
 
 header{
     color: bisque;
+    font-weight: 300;
     height: 80px;
     background-color: darkcyan;
     font-family: 'Lobster Two', cursive;
@@ -43,6 +44,8 @@ small {
 
 h1, h2 {
     font-family: 'Abril Fatface', bold;
+    font-weight: 200;
+    color: black;
 }
 
 .card{
